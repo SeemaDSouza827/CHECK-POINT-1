@@ -79,7 +79,8 @@ h2{
 }
 hr{
     width: 800px;
-    border: 3px  dotted gray;
+    border: 0;
+    border-bottom: 3px  dotted gray;
 }
 .dabba{
     height: 8rem;
@@ -87,10 +88,10 @@ hr{
     background-color: #99d8ca;
     outline: 0.5rem inset #5873e2;
     outline-offset: -1rem;
-    box-shadow: 1rem 1rem #90ffa9, -1rem 1rem #90ffa9, 1rem -1rem #90ffa9, -1rem -1rem #90ffa9;
-    border-radius: 10%;
+    box-shadow: 0 0 0 20px #90ffa9;
     border: 1rem solid #0d1430;
-    margin-left: 41.7%;
+    border-radius: 12px;
+    margin:0 auto;
 }
 .big-dabba{
     width: 660px;
@@ -103,17 +104,13 @@ hr{
     height: 180px;
     width: 200px;
     margin: 10px;
-    display: inline-block;
-    border: 2px solid black;
+    display: inline-block;    
     background-color: rgb(160, 181, 221);
-    box-sizing: border-box;
+    
 }
 .small-dabba2{
-    height: 180px;
-    width: 200px;
-    margin: 10px;
-    display: inline-block;
-    background-color:rgb(160, 181, 221);
+    border: 2px solid black;
+    box-sizing: border-box;
 }
 /* blog page */
 .marker-container{
@@ -149,7 +146,7 @@ img{
 }
 .box1{
     display: inline-block;
-    vertical-align: top;
+        vertical-align: top;
     width: 400px;
     height: 400px;
 }
